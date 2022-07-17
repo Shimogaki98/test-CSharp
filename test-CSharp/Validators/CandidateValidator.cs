@@ -28,7 +28,6 @@ namespace test_CSharp.Validators
             RuleFor(m => m.InsertDate)
                 .NotEmpty()
                     .WithMessage("Insert date is required");
-
         }
     }
 }
